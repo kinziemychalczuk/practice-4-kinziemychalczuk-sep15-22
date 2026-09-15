@@ -42,3 +42,24 @@ main {
     margin: 0px auto;
     padding: 0px 24px;
 }
+
+.site-footer {
+    background: black;
+    color: white;
+}
+
+.site-footer .inner {
+    display: grid;
+    grid-template: auto / 1fr 1fr;
+    max-width: 1120px;
+    margin: 0px auto;
+    padding: 34px;
+}
+
+.site-footer a {
+    color: white;
+}
+
+.site-footer .right {
+    text-align: right;
+}
