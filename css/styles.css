@@ -44,8 +44,8 @@ main {
 }
 
 .site-footer {
-    background: black;
-    color: white;
+    background: #1d1b18;
+    color: #fbf8f3;
 }
 
 .site-footer .inner {
@@ -53,11 +53,11 @@ main {
     grid-template: auto / 1fr 1fr;
     max-width: 1120px;
     margin: 0px auto;
-    padding: 34px;
+    padding: 34px 24px;
 }
 
 .site-footer a {
-    color: white;
+    color: #fbf8f3;
 }
 
 .site-footer .right {
