@@ -85,6 +85,15 @@ main {
     object-fit: cover;
 }
 
+.section-head {
+    border-top: 1px solid #efe9df;
+    padding: 34px 0 24px;
+}
+
+.section-head p {
+    max-width: 68ch;
+}
+
 .site-footer {
     background: #1d1b18;
     color: #fbf8f3;
