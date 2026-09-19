@@ -49,7 +49,6 @@ h1 {
 .site-nav {
     background: #1d1b18;
 }
-
 .site-nav ul {
     list-style: none;
     display: grid;
@@ -59,7 +58,6 @@ h1 {
     margin: 0px auto;
     padding: 16px 24px;
 }
-
 .site-nav a {
     color: #fbf8f3;
     text-decoration: none;
@@ -78,7 +76,6 @@ main {
     gap: 28px;
     padding: 54px 0;
 }
-
 .hero img {
     width: 100%;
     height: 380px;
@@ -89,16 +86,33 @@ main {
     border-top: 1px solid #efe9df;
     padding: 34px 0 24px;
 }
-
 .section-head p {
     max-width: 68ch;
+}
+
+.cards {
+    display: grid;
+    grid-template: auto / 1fr 1fr 1fr;
+    gap: 28px;
+    padding-bottom: 60px;
+}
+.card img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+.card h3 {
+    margin: 14px 0 6px;
+}
+.card p {
+    font-size: 16px;
+    color: #6b6560;
 }
 
 .site-footer {
     background: #1d1b18;
     color: #fbf8f3;
 }
-
 .site-footer .inner {
     display: grid;
     grid-template: auto / 1fr 1fr;
@@ -106,11 +120,9 @@ main {
     margin: 0px auto;
     padding: 34px 24px;
 }
-
 .site-footer a {
     color: #fbf8f3;
 }
-
 .site-footer .right {
     text-align: right;
 }
